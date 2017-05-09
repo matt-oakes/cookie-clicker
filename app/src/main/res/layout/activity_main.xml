@@ -5,18 +5,18 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/image_cookie"
+        android:id="@+id/imgCookie"
         android:layout_width="256dp"
         android:layout_height="256dp"
         android:src="@drawable/cookie"
         android:layout_centerInParent="true" />
 
     <TextView
-        android:id="@+id/counter"
+        android:id="@+id/lblTotal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_above="@id/image_cookie"
+        android:layout_above="@id/imgCookie"
         android:layout_marginBottom="24dp"
         tools:text="100"
         android:textColor="#000000"

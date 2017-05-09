@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ImageView cookieImage = (ImageView) findViewById(R.id.image_cookie);
+        ImageView cookieImage = (ImageView) findViewById(R.id.imgCookie);
         cookieImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        counterTextView = (TextView) findViewById(R.id.counter);
+        counterTextView = (TextView) findViewById(R.id.lblTotal);
         updateCounter();
     }
 
